@@ -19,7 +19,7 @@ function classifyConsumption() {
             document.getElementById('display1').innerHTML = 'Very High Consumption : Heavy electricity users';
             break;
         default:
-            document.getElementById('display1').innerHTML = 'Invalid input. Try again.';
+            document.getElementById('display1').innerHTML = 'Invalid input. Please input a non-negative number and try again.';
             break;
     }
 }
